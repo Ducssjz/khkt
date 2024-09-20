@@ -1,0 +1,25 @@
+** CSS 
+trang diem them cho web
+
+
+ tag name { color : red } : tao mau cho tag
+          { border : lpx solid red } : tao mao vien cho tag
+          { background : red } : tao nen cho tag
+          
+TAO MAU NEN CHO WEB
+html { background : blue; }
+     {background url ('link img') } : lay anh lam nen
+     {background-size : cover;} : tang kich thuoc hinh anh 
+     {background-repeat : no-repeat;} : giup hinh anh kh lap lai
+     { font-size : 30px;} : do lon cua cua chu
+    {font-weight : 800;} : do mo cua chu
+    {font-style :italic;} : kieu chu
+     {font-family :'Arial'} : tuy chon kieu chu
+ position: absolute;
+  left : 0px;
+ right : 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+
+       

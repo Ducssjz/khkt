@@ -1,0 +1,26 @@
+khoi tao html
+
+file text + nhap file duc.html + ! + enter
+tạo đường dẫn css bên ngoài : <link rel="stylesheet"href="index.css"/>
+
+<body>  : la noi hien thi noi dung va lay thong tin nguoi dung
+**<h1> : ghi text , h canh dau tien chu cang to
+**<p>  : ghi kieu 1 doan van .
+**<br/> : xuong dong
+**<ul> : dau cham dau dong
+**<ol> : so dau dong 1,2,3
+**<li> : danh sach gach dau dong 
+**<div> : la mot khoi co the viet chu xuong dong
+**<spen> : ghi chu lien tiep kh xuong dong
+**<a ( href =" ..........> : tao link lien ket     *** thuoc tinh la nhung thong tin cua tag 
+**<img src="......"\> : tao lien ket hinh anh,chinh sua kich thuoc hinh anh width="100"
+**<video src="....."\> : tao lien ket video
+********************************************************
+lay thong tin nguoi nhap vao
+**<form> : noi nhap nhung tag khac
+++<label> : dong chu de goi y hien ben ngoai
+++<input type= "text", placeholder="text"/> : noi nhap chu,chu goi y hien ben trong   
+**<select> :  dung de chon nhieu cau tra loi
+++<option> :   cac goi y khi chon
+** neu chon 1 trong 2 dap an *<input type = "radio" name ="gau"> lua chon 1 <input type = "radio" name = "gau"> lua chon 2
+**<button> : tao ra mot nut bam
