@@ -1,0 +1,35 @@
+.ulthanhcongcu{
+   list-style-type: none;
+   margin: 0 px;
+  padding: 8px;
+  overflow: hidden;
+  background-color: #3cbd20;
+  position:relative;
+  margin: -10px;
+  margin-top:-7px;
+  
+  
+}
+li{
+float: left;
+}
+li a {
+display: block;
+text-decoration: none;
+color: white;
+display: inline;
+text-align: center;
+padding: 15px;
+
+}
+li a:hover{
+background-color: black;
+
+}
+.anhtaiche{
+    height: 200px;
+      background-color: white;
+    position: relative;
+      bottom:-100px;
+
+}
