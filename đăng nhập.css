@@ -10,13 +10,13 @@ body {
   background-color: #1d1d1d;
   color: white;
 }
-
+ 
 header {
   background-color: #26A65B;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 18px;
 }
 
 .logo {
@@ -43,16 +43,22 @@ header {
   float:left;
 }
 
-.mucluc li a {
+.mucluc a {
   display: block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
+  transition:1s;
+  border-radius: 20px;
+  margin-right: 10px;
+
 }
-.mucluc li :hover{
+.mucluc a.active{
+ background: rgba(28, 178, 48, 0.371);
+}
+.mucluc li :hover:not(.active){
    background-color: rgba(26, 34, 27, 0.371);
+  scale: 1.1;
 }
 
 .hinhdaidien img {
@@ -62,11 +68,13 @@ header {
 
 .hinhanhchinh {
   position: relative;
+  bottom: 0px;
 }
 
-.hinhanhchinh img {
+.hinhanhchinh video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  
 }
 
 .buttons {
@@ -75,8 +83,12 @@ header {
   right: 10%;
   transform: translateY(-50%);
 }
+.buttons a {
+    text-decoration: none;
+    color: white;
+}
 
-button {
+button  {
   background-color: #39B54A;
   color: white;
   border: none;
@@ -85,10 +97,12 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+  transition: 1s;
 }
 
 button:hover {
   background-color: #2e9541;
+  scale: 1.2;
 }
 
 
@@ -96,16 +110,9 @@ footer {
   background-color: #5C3D2E;
   padding: 20px;
   text-align: center;
+  margin-top: -4px;
 }
 
-.email p {
-  margin: 5px 0;
-}
 
-.lienketthongtin a {
-  margin: 0 10px;
-}
 
-.lienketthongtin img {
-  width: 30px;
-}
+
